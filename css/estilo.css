@@ -4,6 +4,7 @@
 	src: url("../fonts/bubblegum-sans-regular.otf");
 }
 body {
+	font-family: Arial, sans-serif;
 	
 	background-color:#dddddd;
 	color: rgba(0,0,0,1);
@@ -22,6 +23,15 @@ div#interface {
 	text-indent: 50px;
 	
 	}
+	a {
+		color: #606060;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+		
+	}
+	
 	header#cabecalho img#icone {
 		position: absolute;
 		left: 780px;
@@ -120,6 +130,40 @@ div#interface {
 		padding-right: 15px ;
 
 		}
+		article#noticia-principal h2 {
+			font-size: 13pt;
+			color: #606060;
+			background-color: #dddddd;
+			padding: 5px 0px 5px 10px;
+			margin: 10px 0px 10px 0px;
+			
+			
+			
+		}
+		header#cabecalho-artigo h1 {
+			font-family:'arial',sans-serif;
+			font-size 20pt;
+			color: #606060;
+			
+		}
+		.direita {
+			text-align: right;
+		}
+		
+		header#cabecalho-artigo h2 {
+			font-size: 13pt;
+			color: #cecece;
+			background-color: #ffffff;
+			margin: 0px;
+			
+		}
+		header#cabecalho-artigo h3 {
+			font-size: 12px;
+			color: # 606060;
+			
+		}
+		
+		
 		table#tabelaspec {
 			border: 1px solid #606060;
 			border-spacing: 0px;
@@ -169,7 +213,25 @@ div#interface {
 		display: block;
 		width: 350px
 		float: right;
+		background-color: #dddddd;
+		padding: 10px;
+		margin-top: 10px;
+		box-shadow: 2px 2x 2px rgba(0,0,.5);
 	}
+	aside#lateral h1 {
+	font-family: 'Arial', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+	}
+	aside#lateral h2 {
+		background-color: #606060;
+		font-size: 15pt;
+		color: #ffffff;
+		padding: 5px;
+	}
+	
+	
 	footer#rodape {
 		clear: both;
 		border-top: 1px solid #606060;
